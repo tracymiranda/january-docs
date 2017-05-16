@@ -59,6 +59,12 @@ Dataset [0,0000000, 0,0000000, 0,0000000, 0,0000000, 0,0000000, 0,0000000, 0,000
 Dataset myDataset = DatasetFactory.createFromObject(new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, 2, 5);
 ```
 
+or
+
+```Java
+Dataset myDataset = DatasetFactory.createFromObject(new int[][] {{ 0, 0, 0, 0, 0},{ 0, 0, 0, 0, 0 }});
+```
+
 Second parameter means that it will be a 2 dimensional array, and the third one means that it will split the data by 5 in each dimensions.
 If you display the Dataset:
 
