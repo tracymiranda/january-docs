@@ -32,8 +32,10 @@ myDataset.toString(true);
 
 The output should be:
 
-```Dataset [[0, 0, 0, 0, 0],
- [0, 0, 0, 0, 0]]```
+```
+Dataset [[0, 0, 0, 0, 0],
+ [0, 0, 0, 0, 0]]
+ ```
  
  **Note: you need to put ```Java true``` in the function to print dataset values.**
 
