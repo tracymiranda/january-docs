@@ -146,7 +146,7 @@ Dataset myDataset = DatasetFactory.createFromObject(myDatasetValues, 2,2,4,2);
 Parameters explanation:
 ![explication](https://github.com/PierreSachot/Internship-Reports/blob/master/images/Screenshot_user_guide_creating_dataset.png?raw=true)
 
-Every number correspond to the number of values to put inside of each dimensions.
+Every numbers correspond to the number of values to put inside of each dimensions.
 
 
 If you print myDataset, the result would be:
