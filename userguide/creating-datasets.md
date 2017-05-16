@@ -79,7 +79,7 @@ Dataset [-0,26948407, 0,35588735, -1,4729743, 0,49738359, 1,0261459]
 ```
 
 ## Datasets from Arrays
-    1. Create a 1D Dataset:
+1- Create a 1D Dataset:
  
 Like we saw before, the way to create a one dimensional Dataset is really easy, and works with all Java basic types:
 ```Java
@@ -96,7 +96,7 @@ Dataset myDataset = DatasetFactory.createFromObject(myDatasetValues);
 
 This should return: ``` Dataset [1,2000000, 2,3000000, 3,4000000, 4,5000000] ```
  
-    2. Create a 2D Dataset:
+2- Create a 2D Dataset:
     
 Because a Dataset works with arrays, create a multidimensional Dataset is really easy, you just have to do:
 
@@ -117,7 +117,7 @@ Those should return:
 ```Dataset [[1,2000000, 2,3000000],
  [3,4000000, 4,5000000]] ```
     
-    3. Create a ND Dataset:
+3- Create a ND Dataset:
     
 To create a N dimensional Dataset, the concept is the same than before, you just give your array of your wanted dimension to the ```createFromObject()``` function:
 
