@@ -17,7 +17,7 @@ In the case that you want to create a Dataset with only zeros inside, you can do
 
 ### 1- 1D Zero Dataset
 
- #### 1. The manual way:
+ #### 1. Manual way:
 
 ```Java
 Dataset myDataset = DatasetFactory.createFromObject(new double[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 });
@@ -37,7 +37,9 @@ Dataset [0,0000000, 0,0000000, 0,0000000, 0,0000000, 0,0000000, 0,0000000, 0,000
  
 **Note: you need to put ```true``` in the function to print dataset values.**
 
- #### 2. The automatic way:
+
+
+ #### 2. Automatic way:
  
 ```Java
 Dataset myDataset = DatasetFactory.zeros(10);
@@ -50,7 +52,8 @@ Dataset [0,0000000, 0,0000000, 0,0000000, 0,0000000, 0,0000000, 0,0000000, 0,000
 ```
  
 ### 2- Multidimensionnal Dataset
- #### 1. The manual way:
+
+ #### 1. Manual way:
 
 ```Java
 Dataset myDataset = DatasetFactory.createFromObject(new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }, 2, 5);
@@ -70,7 +73,9 @@ Dataset [[0, 0, 0, 0, 0],
 [0, 0, 0, 0, 0]]
 ``` 
  
- #### 2. The automatic way:
+ 
+ 
+ #### 2. Automatic way:
 ```Java
 Dataset myDataset = DatasetFactory.zeros(2,5);
 ```
